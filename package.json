@@ -1,0 +1,22 @@
+{
+  "name": "n8n-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ecosystem.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nykytin Oleksandr",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@bull-board/api": "^6.19.0",
+    "@bull-board/express": "^6.19.0",
+    "bull": "^4.16.5",
+    "bullmq": "^5.69.3",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "n8n": "^2.8.4"
+  }
+}
